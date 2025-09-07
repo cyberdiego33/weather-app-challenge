@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch\"",
+    "dev": "concurrently \"tsc -w\" \"npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch\"",
     "build": "tsc && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "dependencies": {
