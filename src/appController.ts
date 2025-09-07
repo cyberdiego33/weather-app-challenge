@@ -6,7 +6,8 @@ function greet(name: string): string {
 }
 
 const data = getWeatherData();
-renderWeather(data);
+// renderWeather(data);
+console.log(data);
 
 console.log("Controller ran successfully.");
 
