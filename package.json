@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch\"",
-    "build": "tsc && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "tsc && npx tailwindcss -i ./src/styles.css -o ./dist/output.css --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13",
